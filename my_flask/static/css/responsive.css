@@ -1,0 +1,28 @@
+@media screen and (max-width: 900px) {
+    body {
+      background-color: red;
+    }
+    header{
+      
+        flex-direction: column;
+        height: 200px;
+    }
+    .kka img{
+        
+        justify-content: center;
+    }
+    ul{
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .search input{
+        width: 250px;
+    }
+    .obj1{
+        overflow: scroll;
+    }
+
+  }
