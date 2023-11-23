@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Ubuntu:ital,wght@1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p
+{
+    border: 2px solid crimson;
+}
+.container
+{
+    min-height: calc(100vh - 60px - 80px);
+}
+footer
+{
+    background-color: blue;
+    color: antiquewhite;
+    height: 80px;
+    font-family: 'Kanit', sans-serif;
+}
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    font-family: 'Kanit', sans-serif;
+    height: 60px;
+    padding-left: 10px;  
+}
+.kka
+{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    margin: 15px;
+    
+    
+}
+.imgg
+{
+    width: 120px;
+    height: 38px;
+    justify-content: center;
+    padding-right: 5px;
+}
+ul
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;   
+}
+ul li
+{
+    list-style: none;
+    padding: 20px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font: 50px;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+
+}
+input{
+    width: 360px;
+    border-radius: 4px;
+    height: 25px;
+
+}
+
+.slide{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.imkk{
+    height: 300px;
+    width: 1100px;
+}
+h3{
+    font-family: 'Kanit', sans-serif;
+    margin-left: 60px;
+    margin-block: 6px;
+}
+.kart,.kart2{
+    margin-top: 12px;
+    background-color: blanchedalmond;
+    margin-bottom: 14px;
+    
+}
+h5{
+    height: 5px;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 60px;
+    margin-block: 6px;
+}
